@@ -1,0 +1,19 @@
+# --- Logs e arquivos temporários do sistema ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Gowin IDE (Arquivos gerados por compilação) ---
+fpga/gowin_project/impl/
+fpga/gowin_project/stdout.log
+fpga/gowin_project/stderr.log
+*.db
+*.pnr
+*.fs
+
+# --- Compilação ARM64 (Raspberry Pi) ---
+raspberry/build/
+*.o
+*.out
+a.out
